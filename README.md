@@ -34,16 +34,16 @@ The link to the page deployed on Github can be found [here](https://ryocon.githu
 This shows how accessibility has increased on the hero image with alt text being applied whenn the cursor hovers over the image.
 <br>
 <br>
-![an example of increased accessibility on the hero image](/02-Homework/Develop/assets/screenshots/alt-text-example.jpg)
+![an example of increased accessibility on the hero image](/screenshots/alt-text-example.jpg)
 <br>
 <br>
 An example of the html after the code has been refactored to include semantic tags and flow. You can see comments have also been added for easier reading of the code.
 <br>
 <br>
-![an example of the html after the refactor](/02-Homework/Develop/assets/screenshots/html-refactor.jpg)
+![an example of the html after the refactor](/screenshots/html-refactor.jpg)
 <br>
 <br>
 An example of the css after refactoring which also includes comments noting the increased semantic flow of the document and also why and what elements were changed.
 <br>
 <br>
-![an example of the css after the refactor](/02-Homework/Develop/assets/screenshots/css-refactor.jpg)
+![an example of the css after the refactor](/screenshots/css-refactor.jpg)
