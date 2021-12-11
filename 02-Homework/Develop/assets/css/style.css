@@ -1,12 +1,15 @@
+/* applying universal rules */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* setting background color for the body of the page */
 body {
     background-color: #d9dcd6;
 }
+
 
 .header {
     padding: 20px;
@@ -20,10 +23,12 @@ body {
     font-size: 48px;
 }
 
+/* used to make the seo letters in the span tag a different colour */
 .header h1 .seo {
     color: #d9dcd6;
 }
 
+/* gives the nav bar within the header a different set of styling rules */
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -41,15 +46,18 @@ body {
     margin-left: 25px;
 }
 
+/* links to display as white without any decoration */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* font sizing for paragraphs */
 p {
     font-size: 16px;
 }
 
+/* the hero image (main image under the header) is being imported from an absolute path */
 .hero {
     height: 800px;
     width: 100%;
@@ -59,6 +67,35 @@ p {
     background-position: center;
 }
 
+/* sizing for the div containing the main content */
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/* class for repeated sections for the main content */
+/* classes moved up to follow ssemantic flow of html */
+.main-content {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.main-content img {
+    max-height: 200px;
+}
+
+.main-content h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* moved float classes to follow semantic flow of html */
+/* float allowing the content to be set either side of the page */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -69,12 +106,7 @@ p {
     margin-left: 25px;
 }
 
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-}
-
+/* class rules for the aside */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -86,108 +118,24 @@ p {
     background-color: #2589bd;
 }
 
-.benefit-lead {
+/* created a class for all 'benefits' to follow DRY methodology */
+.benefit-style {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h3 {
+.benefit-style h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img {
+.benefit-style img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.search-engine-optimization {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.search-engine-optimization img {
-    max-height: 200px;
-}
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
+/* footer at the bootom of the page */
 .footer {
     padding: 30px;
     clear: both;
