@@ -27,6 +27,7 @@ In this project I added multiple tags for accessibility and reworked both the ht
 
 ## Links
 The repository for the project can be found [here](https://github.com/Ryocon/bootcamp-homework-01-roc)
+<br>
 The link to the page deployed on Github can be found [here](https://ryocon.github.io/bootcamp-homework-01-roc/)
 
 ## Screenshots
